@@ -3,6 +3,13 @@ Using Reinforcement Learning to solve an Inverse Kinematics Problem. I use RL to
 that it's end-effector reaches a desired pose.
 
 ![Demo](media/example.gif)
+
+# How to run the code 
+  1. clone repo
+  2. cd into repo 
+	3. pip install -r requirements.txt (make sure openmpi is installed on your machine)
+	4. python inference.py 
+
 # About the Arm
 I created a virtual robot arm. It's an arm that only moves around the x-y plane and there are 3 joints to control. 
 The arm's reach is 3.5 and it's home position is when the joints are at [90,0,0] (shown below). The robot's joint
@@ -10,11 +17,6 @@ angles must be between -180 and 180.
 
 ![Demo](media/init.png )
 
-# How to run the code 
-1. clone repo
-2. cd into repo 
-3. pip install -r requirements.txt (make sure openmpi is installed on your machine)
-4. python inference.py 
 
 # gym.Env info 
 Name: ik-2D-3DOF-arm-v0
