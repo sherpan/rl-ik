@@ -42,6 +42,6 @@ and set that value as the goal position. Because I'm choosing a random INTEGER, 
 View ik_2D_3DOF_arm/envs/ik_2D_3DOF_arm.py to see full implementation 
 
 # Agent info
-I used Stable-baseline's PPO implementation (PPO1 specifically) for my policy. It took around 24 mins to train on my 7th generation core i7. It has around 97% accuracy and averages 25 steps for its successful episodes see (eval.py). I have uploaded this agent and use inference.py to see it in action (virtually). 
+I used Stable-baseline's PPO implementation (PPO1 specifically) for my policy. It took around 24 mins to train on my 7th generation core i7. It has around 97% accuracy and averages 25 steps for its successful episodes see (eval.py). I have uploaded this agent as ppo-ik_agent.zip
 
 
