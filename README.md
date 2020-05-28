@@ -2,7 +2,7 @@
 Using Reinforcement Learning to solve an Inverse Kinematics Problem. I use RL to control the joints of a robot arm so 
 that it's end-effector reaches a desired pose from it's home position 
 
-![Demo](media/example.gif)
+![Demo](media/best.gif)
 
 # How to run the code 
   1. clone repo
