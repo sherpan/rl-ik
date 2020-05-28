@@ -10,9 +10,9 @@ angles must be between -180 and 180.
 # gym.Env info 
 Name: ik-2D-3DOF-arm-v0
 
-Observation Space: {robot end effector's goal position, robot end effector's current position}. Continous space represented by a spaces.Box[-3.5, 3.5] for all four values 
+Observation Space: {robot end effector's goal position, robot end effector's current position. Box representation 
 
-Action Space: Joint Delta Values. Can change each joint between -5 and 5 degrees. (Multi) Discrete space represented by spaces.MultiDiscrete([ 11, 11, 11 ]).
+Action Space: Joint Delta Valuesbetween -5 and 5 degrees. (Multi) Discrete representation 
 
 Rewards: 
 
@@ -25,7 +25,7 @@ Rewards:
   else reward = -dist(curr, goal)
 
 Note: At the beginning of each episode. I choose a random int from -180 and 180 for each joint. Then, calculate the Foward Kinematics
-and set that value as the goal position. Because I'm choosing a random INTEGER, I can get away with a discrete action space. 
+and set that value as the goal position. Because I'm choosing a random INTEGER, I can get away with a (multi) discrete action space. 
 
 View ik_2D_3DOF_arm/envs/ik_2D_3DOF_arm.py to see full implementation 
 
