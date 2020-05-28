@@ -21,9 +21,9 @@ angles must be between -180 and 180.
 # gym.Env info 
 Name: ik-2D-3DOF-arm-v0
 
-Observation Space: {robot end effector's goal position, robot end effector's current position. Box representation 
+Observation Space: {robot end effector's goal position, robot end effector's current position} (spaces.Box)
 
-Action Space: Joint Delta Valuesbetween -5 and 5 degrees. (Multi) Discrete representation 
+Action Space: Joint Delta Values Between -5 and 5 Degrees. (space.MultiDiscrete)
 
 Rewards: 
 
